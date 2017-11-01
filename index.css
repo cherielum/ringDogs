@@ -1,0 +1,67 @@
+* {
+	margin:0;
+}
+
+body {
+	margin: 50px;
+	background: #292929;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+}
+
+.row {
+	width: 100%;
+	padding-left: 11%;
+}
+
+a.dogPicture1 {
+	padding: 30px;
+	text-decoration: none;
+	display: inline-block;
+	 -webkit-animation-duration: 0.3s;
+	/*  -webkit-animation-delay: 2s;*/
+	 -webkit-animation-iteration-count: 1s;
+}
+
+a.dogPicture2 {
+	padding: 30px;
+	text-decoration: none;
+	display: inline-block;
+	 -webkit-animation-duration: 0.3s;
+	/*  -webkit-animation-delay: 2s;*/
+	 -webkit-animation-iteration-count: 1s;
+}
+
+a.dogPicture3 {
+	padding: 30px;
+	text-decoration: none;
+	display: inline-block;
+	 -webkit-animation-duration: 0.3s;
+	/*  -webkit-animation-delay: 2s;*/
+	 -webkit-animation-iteration-count: 1s;
+}
+
+a.dogPicture4 {
+	padding: 30px;
+	text-decoration: none;
+	display: inline-block;
+	 -webkit-animation-duration: 0.3s;
+	/*  -webkit-animation-delay: 2s;*/
+	 /*-webkit-animation-iteration-count: infinite;*/
+}
+
+a.dogPicture5 {
+	padding: 30px;
+	text-decoration: none;
+	display: inline-block;
+	 -webkit-animation-duration: 0.3s;
+	/*  -webkit-animation-delay: 2s;*/
+	 /*-webkit-animation-iteration-count: infinite;*/
+}

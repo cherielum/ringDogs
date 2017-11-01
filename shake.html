@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta charset="UTF-8">
+	<title></title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head> 
+
+<body>
+	<a href = "#" class = "button" id = "cat">Holla!</a>
+	<input type = "text" name = 'firstName'>
+
+	<a href = "#" class = "button" id ="fish">Holla!</a>
+	<input type = "text" name = 'secondName'>
+
+	<a href = "#" class = "button" id ="dog">Holla!</a>
+	<input type = "text" name = 'thirdName'>
+
+	<style>
+	body {
+		margin: 50px;
+		background: #292929;
+		font-family: sans-serif;
+		text-align: center; 
+	}
+	a.button {
+		background: #e74c3c;
+		color: white;
+		padding: 20px;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 50px;
+		border-radius: 10px;
+	 /* -webkit-animation-duration: .3s;*/
+	 /* -webkit-animation-delay: 2s;
+	  -webkit-animation-iteration-count: infinite;*/
+}
+
+	</style>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+
+	<script>
+		$(function() {
+			var animationName = 'animated shake';
+			var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+			$('a#cat').click(function() {
+				$('a#cat').addClass(animationName).one(animationEnd, function() {
+					$(this).removeClass(animationName);
+				});
+
+			});
+		});
+
+		$(function() {
+			var animationName = 'animated swing';
+			var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+			$('a#fish').click(function() {
+				$('a#fish').addClass(animationName).one(animationEnd, function() {
+					$(this).removeClass(animationName);
+				});
+
+			});
+		});
+
+		$(function() {
+			var animationName = 'animated bounce';
+			var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+			$('a#dog').click(function() {
+				$('a#dog').addClass(animationName).one(animationEnd, function() {
+					$(this).removeClass(animationName);
+				});
+
+			});
+		});
+
+		
+
+	</script>
+
+
+
+
+
+</body>
+</html>
